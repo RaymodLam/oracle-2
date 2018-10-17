@@ -26,4 +26,8 @@ HAVING d.department_name in ('IT'，'Sales');
 </pre>
 ## 执行查询语句2的结果:
 <pre>
+DEPARTMENT_NAME                     部门总人数       平均工资
+------------------------------ ---------- ----------
+IT                                      5       5760
+Sales                                  34 8955.88235
 </pre>
