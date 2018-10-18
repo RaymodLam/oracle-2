@@ -9,12 +9,7 @@ and d.department_name in ('IT'，'Sales')
 GROUP BY department_name;
 </pre>
 ## 执行查询语句1的结果:
-<pre>
-DEPARTMENT_NAME                     部门总人数       平均工资
------------------------------- ---------- ----------
-IT                                      5       5760
-Sales                                  34 8955.88235
-</pre>
+![](https://github.com/llwaves/oracle/blob/master/test1/sql1.PNG)
 ## 查询语句2：
 <pre>
 SELECT d.department_name，count(e.job_id)as "部门总人数"，
@@ -25,9 +20,5 @@ GROUP BY department_name
 HAVING d.department_name in ('IT'，'Sales');
 </pre>
 ## 执行查询语句2的结果:
-<pre>
-DEPARTMENT_NAME                     部门总人数       平均工资
------------------------------- ---------- ----------
-IT                                      5       5760
-Sales                                  34 8955.88235
-</pre>
+![](https://github.com/llwaves/oracle/blob/master/test1/sql2.PNG)
+
