@@ -26,5 +26,5 @@ HAVING d.department_name in ('IT'，'Sales');
 ## 执行结果分析
 执行上面的两个查询语句后得知，两个查询语句查询结果相同，但查询语句1查询时间更少，而且consistent on要小于查询语句2，所有查询语句1更优。
 ## 查询语句1优化
-![](https://github.com/llwaves/oracle/blob/master/test1/sql2.PNG)
+![](https://github.com/llwaves/oracle/blob/master/test1/sql1_2.PNG)
 
